@@ -69,6 +69,9 @@ export default forwardRef<ListMenuType, ListMenuProps>((props: ListMenuProps, re
       case 'playLater':
         props.onPlayLater(selectInfo)
         break
+      case 'download':
+        props.onDownload(selectInfo)
+        break
       case 'add':
         props.onAdd(selectInfo)
         break
